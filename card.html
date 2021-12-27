@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Arial";
+      }
+      section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .card {
+        width: 300px;
+        height: 500px;
+        background-color: #e4dfda;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+      .card img {
+        width: 100%;
+      }
+      #imgMe {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid #e4dfda;
+        margin: -5em 0 0 4em;
+      }
+      p {
+        color: #333;
+        text-align: center;
+        font-weight: bold;
+      }
+      p:nth-child(4) {
+        font-weight: 200;
+        line-height: 0.2;
+      }
+      .redes {
+        display: flex;
+        margin: 10px 20px;
+      }
+      .redesS {
+        height: 43px;
+        margin: 20px;
+      }
+      .redesS:hover {
+        cursor: pointer;
+      }
+      .footer {
+        background: #212529;
+        height: 60px;
+        font-weight: bold;
+        color: #e4dfda;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .footer1,
+      .footer2 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt="Portada"
+        />
+        <img id="imgMe" src="./images/me.jpg" alt="" />
+        <p>Miguel Turpo</p>
+        <p>Software Developer</p>
+        <div class="redes">
+          <img class="redesS" src="./images/facebook (1).png" alt="" />
+          <img class="redesS" src="./images/twitter-sign.png" alt="" />
+          <img class="redesS" src="./images/github-sign.png" alt="" />
+        </div>
+        <div class="footer">
+          <div class="footer1">Ver Proyectos</div>
+          <div class="footer2">Enviar Correos</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
